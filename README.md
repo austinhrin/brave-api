@@ -160,7 +160,7 @@ search_results = brave.search(q=query, goggles_id=thought_leadership, count=num_
 
 This package uses Poetry for dependency management. To start developing here, you need to install Poetry
 
-* Follow the instructions on the [official docs](https://python-poetry.org/docs/master/#installing-with-the-official-installer)
+* Follow the instructions on the [official docs](https://python-poetry.org/docs/#installing-with-the-official-installer)
 
 Once you have Poetry installed on your system simply run:
 

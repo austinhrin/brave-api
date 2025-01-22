@@ -2,7 +2,7 @@
 
 This project uses [Poetry](https://python-poetry.org/) for dependency management. To start developing here, you need to install Poetry
 
-* Follow the instructions on the [official docs](https://python-poetry.org/docs/master/#installing-with-the-official-installer)
+* Follow the instructions on the [official docs](https://python-poetry.org/docs/#installing-with-the-official-installer)
 
 Once you have Poetry installed on your system simply run:
 
@@ -40,3 +40,13 @@ poetry add requests
 
 * `make help`       To get a list of ready to use recipes
 * `poetry list`     Lists all available Poetry commands
+
+## :running: Running tests locally
+Install test dependancies
+```bash
+poetry install --with test
+```
+Run pytest
+```bash
+poetry run pytest
+```

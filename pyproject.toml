@@ -16,13 +16,13 @@ generate-setup-file = false
 
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 requests = "^2.26.0"
-httpx = ">=0.24.0, <0.26.0"
+httpx = "^0.26.0"
 tenacity = "^8.2.3"
 pydantic = "^2.5.2"
 pytest-asyncio = "^0.23.2"
-numpy = "^1.24.4"
+numpy = "^2.0"
 
 [tool.poetry.group.test]
 optional = true
@@ -141,7 +141,7 @@ addopts = """
   --verbose
   --color=yes
   --assert=plain
-  --cov-report term
+  --cov-report=term
   --cov=src
 """
 testpaths = [
